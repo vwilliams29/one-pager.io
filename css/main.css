@@ -1,0 +1,34 @@
+.splash-screen {
+  background-image: url("../img/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 669px;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.img-fade {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
